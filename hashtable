@@ -1,4 +1,4 @@
-n a real-time web-based chat application, hash tables can be a valuable data structure to manage various aspects of the application. Hash tables can be used for a wide range of functionalities, and they play a crucial role in enhancing the user experience in such scenarios. Here are some practical applications of hash tables in this context:
+In a real-time web-based chat application, hash tables can be a valuable data structure to manage various aspects of the application. Hash tables can be used for a wide range of functionalities, and they play a crucial role in enhancing the user experience in such scenarios. Here are some practical applications of hash tables in this context:
 
 User Data Management:
 Hash tables can be employed to manage user data efficiently. Each user's information, such as username, profile picture, and status, can be stored in a hash table. The hash function can map each user's unique identifier (e.g., user ID or username) to the corresponding user data, allowing for quick retrieval and updates. This ensures that user-related information is readily accessible and up-to-date, contributing to a smoother user experience.
