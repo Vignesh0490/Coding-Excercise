@@ -1,0 +1,23 @@
+In Java, stacks and queues are data structures used to store and manipulate collections of elements. They are both linear data structures, meaning that elements are arranged in a linear sequence. Here are the fundamental concepts of stacks and queues in Java:
+
+Stacks:
+A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle. In a stack, elements are added and removed from the same end, which is typically referred to as the "top" of the stack. The key operations on a stack are:
+
+Push: Adding an element to the top of the stack.
+Pop: Removing and returning the top element from the stack.
+Peek (or Top): Viewing the top element without removing it.
+isEmpty: Checking if the stack is empty.
+Real-world scenario where a stack is more suitable than a queue:
+Consider a scenario of a web browser's back button. When a user navigates through web pages by clicking links, each visited page is pushed onto a stack. When the user clicks the back button, the most recent page is popped off the stack and displayed. The LIFO property of a stack perfectly matches this behavior because the user expects to go back to the previously visited pages in the reverse order they were visited. This is why a stack is more suitable for implementing the back button functionality in a web browser.
+
+Queues:
+A queue is another linear data structure, but it follows the First-In-First-Out (FIFO) principle. In a queue, elements are added to the back, and they are removed from the front. The key operations on a queue are:
+
+Enqueue (or Offer): Adding an element to the back of the queue.
+Dequeue (or Poll): Removing and returning the element from the front of the queue.
+Peek (or Element): Viewing the front element without removing it.
+isEmpty: Checking if the queue is empty.
+Real-world scenario where a queue is more suitable than a stack:
+Consider a printer queue in an office setting. Multiple users send print jobs to a shared printer, and the printer processes these jobs in the order they were received. This scenario matches the FIFO property of a queue because the first job submitted should be the first one printed. In this case, a queue is more suitable for managing print jobs, ensuring fairness and order of processing.
+
+In summary, stacks and queues are two essential data structures in Java, each with its specific use cases based on their underlying principles. Stacks are ideal for situations where the last element added is the first to be processed, while queues are appropriate when the first element added should be the first to be processed.
